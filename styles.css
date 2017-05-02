@@ -1,0 +1,34 @@
+container {
+
+}
+
+.center-container {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.canvas {
+    background-position: center center;
+    background-size: cover;
+    height: auto;
+    left: 0;
+    min-height: 100%;
+    min-width: 100%;
+    position: absolute;
+    top: 0;
+    width: auto;
+}
+
+.layer {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.linktext {
+    color: #FFFFFF;
+    font-size: 82px;
+    position: relative;
+    text-align: center;
+    margin-top: 120px;
+    font-family: 'Grand Hotel', cursive;
+}
