@@ -6,6 +6,7 @@ container {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    margin-top: 12%;
 }
 
 .canvas {
@@ -27,9 +28,22 @@ container {
 .linktext {
     color: #FFFFFF;
     font-size: 82px;
-    font-weight: 800;
+    font-weight: bold;
     position: relative;
     text-align: center;
-    margin-top: 120px;
+    margin-top: 15%;
     font-family: 'Grand Hotel', cursive;
+}
+
+.bottom.text {
+    color: #cccccc;
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+    font-family: 'Grand Hotel', cursive;
+    margin-top: auto;
+    margin-bottom: 10%;
+    bottom: 0;
+    width: 100%;
 }
