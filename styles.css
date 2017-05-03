@@ -24,7 +24,7 @@ container {
 .top {
     text-align: right;
     height:auto;
-    font-size: 25px;
+    font-size: 22px;
     color: #FFFFFF;
     padding-top: 8px;
     padding-bottom: 8px;
@@ -54,7 +54,6 @@ container {
     position: absolute;
     text-align: center;
     font-family: 'Grand Hotel', cursive;
-    margin-top: auto;
     margin-bottom: 10%;
     bottom: 0;
     width: 100%;
