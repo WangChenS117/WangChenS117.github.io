@@ -27,6 +27,7 @@ container {
 .linktext {
     color: #FFFFFF;
     font-size: 82px;
+    font-weight: 800;
     position: relative;
     text-align: center;
     margin-top: 120px;
