@@ -8,28 +8,45 @@ container {
     text-align: center;
     margin-top: 12%;
 }
-.div-inline{
+
+.list {
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.cell {
+    padding: 10px;
+    text-decoration: none;
+}
+
+.div-inline {
     display: inline;
 }
-.div-inline.right{
+
+.div-inline.right {
     float: right;
     width: auto;
     position: relative;
 }
+
 .canvas {
-    background-position: center center;
+    background-position: center;
     background-size: cover;
     height: auto;
     left: 0;
     min-height: 100%;
     min-width: 100%;
-    position: absolute;
+    position: relative;
     top: 0;
     width: auto;
 }
 
 .top {
-    height:auto;
+    height: auto;
+    margin: 0;
+    left: 0;
+    top: 0;
     font-size: 22px;
     color: #FFFFFF;
     padding-top: 8px;
@@ -44,14 +61,28 @@ container {
     background-color: rgba(0, 0, 0, 0.6);
 }
 
+.light-layer {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
 .linktext {
     color: #FFFFFF;
     font-size: 82px;
     font-weight: bold;
     position: relative;
-    text-align: center;
-    margin-top: 15%;
     font-family: 'Grand Hotel', cursive;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.linktext.margintop {
+    margin-top: 15%;
+}
+
+.darktext {
+    color: #03122F;
 }
 
 .bottom.text {
