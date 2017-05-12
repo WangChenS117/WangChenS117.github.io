@@ -9,37 +9,14 @@ container {
     margin-top: 12%;
 }
 
-.list {
-    text-align: left;
-    margin-left: 50px;
-    margin-right: 50px;
-}
-
-.cell {
-    padding: 10px;
-    text-decoration: none;
-}
-
 .div-inline {
     display: inline;
 }
 
-.div-inline.right {
+.right {
     float: right;
     width: auto;
     position: relative;
-}
-
-.canvas {
-    background-position: center;
-    background-size: cover;
-    height: auto;
-    left: 0;
-    min-height: 100%;
-    min-width: 100%;
-    position: absolute;
-    top: 0;
-    width: auto;
 }
 
 .top {
@@ -55,6 +32,19 @@ container {
     padding-right: 22px;
     position: relative;
     background-color: rgba(0, 0, 0, 0.5);
+}
+
+.canvas {
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    border: 0;
+    left: 0;
+    min-height: 100%;
+    min-width: 100%;
+    position: absolute;
+    top: 0;
+    width: auto;
 }
 
 .layer {
@@ -95,4 +85,35 @@ container {
     margin-bottom: 10%;
     bottom: 0;
     width: 100%;
+}
+
+.list {
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.cell{
+    margin-top: 6%;
+    padding-top: 10px;
+}
+.cell-title {
+    font-size: 22px;
+    padding: 10px;
+
+    font-family: cursive;
+    font-weight: 200;
+    text-decoration: none;
+}
+
+.timestyle  {
+    text-align: right;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.divider{
+    height: 1px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    background-color: #03122F;
 }
